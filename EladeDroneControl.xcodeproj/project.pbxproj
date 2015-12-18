@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5255F6261BB83BD000C15B1C /* RaspberryMessageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255F6251BB83BD000C15B1C /* RaspberryMessageHelper.swift */; settings = {ASSET_TAGS = (); }; };
+		526589D31BB7119600114760 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526589CC1BB7116D00114760 /* Starscream.framework */; };
+		526589D51BB7128B00114760 /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 526589CC1BB7116D00114760 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		526589DA1BB71AB500114760 /* DroneStartBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526589D91BB71AB500114760 /* DroneStartBehaviour.swift */; settings = {ASSET_TAGS = (); }; };
+		526589DC1BB726FD00114760 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526589DB1BB726FD00114760 /* MapKit.framework */; };
+		52FB55381BAEF10A00D6C9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB55371BAEF10A00D6C9B1 /* AppDelegate.swift */; };
+		52FB553A1BAEF10A00D6C9B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB55391BAEF10A00D6C9B1 /* ViewController.swift */; };
+		52FB553D1BAEF10A00D6C9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FB553B1BAEF10A00D6C9B1 /* Main.storyboard */; };
+		52FB553F1BAEF10A00D6C9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FB553E1BAEF10A00D6C9B1 /* Assets.xcassets */; };
+		52FB55421BAEF10A00D6C9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FB55401BAEF10A00D6C9B1 /* LaunchScreen.storyboard */; };
+		52FB554D1BAEF10A00D6C9B1 /* EladeDroneControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB554C1BAEF10A00D6C9B1 /* EladeDroneControlTests.swift */; };
+		52FB55581BAF24D700D6C9B1 /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB55571BAF24D700D6C9B1 /* InitViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		52FB555A1BAF24E800D6C9B1 /* StepOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB55591BAF24E800D6C9B1 /* StepOneViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		52FB555C1BAF24F400D6C9B1 /* StepTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB555B1BAF24F400D6C9B1 /* StepTwoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		52FB555E1BAF250400D6C9B1 /* TakeOffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB555D1BAF250400D6C9B1 /* TakeOffViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		526589CB1BB7116D00114760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526589C41BB7116D00114760 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79E619D48B7F006071F7;
+			remoteInfo = Starscream;
+		};
+		526589CD1BB7116D00114760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526589C41BB7116D00114760 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79F119D48B7F006071F7;
+			remoteInfo = StarscreamTests;
+		};
+		526589CF1BB7116D00114760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526589C41BB7116D00114760 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E35F19E48FF1009FC285;
+			remoteInfo = StarscreamOSX;
+		};
+		526589D11BB7116D00114760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526589C41BB7116D00114760 /* Starscream.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9C3E36919E48FF1009FC285;
+			remoteInfo = StarscreamOSXTests;
+		};
+		526589D61BB7128B00114760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 526589C41BB7116D00114760 /* Starscream.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3E79E519D48B7F006071F7;
+			remoteInfo = Starscream;
+		};
+		52FB55491BAEF10A00D6C9B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52FB552C1BAEF10A00D6C9B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52FB55331BAEF10A00D6C9B1;
+			remoteInfo = EladeDroneControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		526589D81BB7128C00114760 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				526589D51BB7128B00114760 /* Starscream.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5255F6251BB83BD000C15B1C /* RaspberryMessageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaspberryMessageHelper.swift; sourceTree = "<group>"; };
+		526589C41BB7116D00114760 /* Starscream.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Starscream.xcodeproj; path = "../../../Downloads/Starscream-master/Starscream.xcodeproj"; sourceTree = "<group>"; };
+		526589D91BB71AB500114760 /* DroneStartBehaviour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneStartBehaviour.swift; sourceTree = "<group>"; };
+		526589DB1BB726FD00114760 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		52FB55341BAEF10A00D6C9B1 /* EladeDroneControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EladeDroneControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FB55371BAEF10A00D6C9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52FB55391BAEF10A00D6C9B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52FB553C1BAEF10A00D6C9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52FB553E1BAEF10A00D6C9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52FB55411BAEF10A00D6C9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52FB55431BAEF10A00D6C9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FB55481BAEF10A00D6C9B1 /* EladeDroneControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EladeDroneControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FB554C1BAEF10A00D6C9B1 /* EladeDroneControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EladeDroneControlTests.swift; sourceTree = "<group>"; };
+		52FB554E1BAEF10A00D6C9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FB55571BAF24D700D6C9B1 /* InitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
+		52FB55591BAF24E800D6C9B1 /* StepOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepOneViewController.swift; sourceTree = "<group>"; };
+		52FB555B1BAF24F400D6C9B1 /* StepTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepTwoViewController.swift; sourceTree = "<group>"; };
+		52FB555D1BAF250400D6C9B1 /* TakeOffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeOffViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52FB55311BAEF10A00D6C9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526589DC1BB726FD00114760 /* MapKit.framework in Frameworks */,
+				526589D31BB7119600114760 /* Starscream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FB55451BAEF10A00D6C9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		526589C51BB7116D00114760 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				526589CC1BB7116D00114760 /* Starscream.framework */,
+				526589CE1BB7116D00114760 /* StarscreamTests.xctest */,
+				526589D01BB7116D00114760 /* Starscream.framework */,
+				526589D21BB7116D00114760 /* StarscreamOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52FB552B1BAEF10A00D6C9B1 = {
+			isa = PBXGroup;
+			children = (
+				526589DB1BB726FD00114760 /* MapKit.framework */,
+				526589C41BB7116D00114760 /* Starscream.xcodeproj */,
+				52FB55361BAEF10A00D6C9B1 /* EladeDroneControl */,
+				52FB554B1BAEF10A00D6C9B1 /* EladeDroneControlTests */,
+				52FB55351BAEF10A00D6C9B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52FB55351BAEF10A00D6C9B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52FB55341BAEF10A00D6C9B1 /* EladeDroneControl.app */,
+				52FB55481BAEF10A00D6C9B1 /* EladeDroneControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52FB55361BAEF10A00D6C9B1 /* EladeDroneControl */ = {
+			isa = PBXGroup;
+			children = (
+				52FB55371BAEF10A00D6C9B1 /* AppDelegate.swift */,
+				52FB55391BAEF10A00D6C9B1 /* ViewController.swift */,
+				52FB553B1BAEF10A00D6C9B1 /* Main.storyboard */,
+				52FB553E1BAEF10A00D6C9B1 /* Assets.xcassets */,
+				52FB55401BAEF10A00D6C9B1 /* LaunchScreen.storyboard */,
+				52FB55431BAEF10A00D6C9B1 /* Info.plist */,
+				52FB55571BAF24D700D6C9B1 /* InitViewController.swift */,
+				52FB55591BAF24E800D6C9B1 /* StepOneViewController.swift */,
+				52FB555B1BAF24F400D6C9B1 /* StepTwoViewController.swift */,
+				52FB555D1BAF250400D6C9B1 /* TakeOffViewController.swift */,
+				526589D91BB71AB500114760 /* DroneStartBehaviour.swift */,
+				5255F6251BB83BD000C15B1C /* RaspberryMessageHelper.swift */,
+			);
+			path = EladeDroneControl;
+			sourceTree = "<group>";
+		};
+		52FB554B1BAEF10A00D6C9B1 /* EladeDroneControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				52FB554C1BAEF10A00D6C9B1 /* EladeDroneControlTests.swift */,
+				52FB554E1BAEF10A00D6C9B1 /* Info.plist */,
+			);
+			path = EladeDroneControlTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52FB55331BAEF10A00D6C9B1 /* EladeDroneControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FB55511BAEF10A00D6C9B1 /* Build configuration list for PBXNativeTarget "EladeDroneControl" */;
+			buildPhases = (
+				52FB55301BAEF10A00D6C9B1 /* Sources */,
+				52FB55311BAEF10A00D6C9B1 /* Frameworks */,
+				52FB55321BAEF10A00D6C9B1 /* Resources */,
+				526589D81BB7128C00114760 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				526589D71BB7128B00114760 /* PBXTargetDependency */,
+			);
+			name = EladeDroneControl;
+			productName = EladeDroneControl;
+			productReference = 52FB55341BAEF10A00D6C9B1 /* EladeDroneControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52FB55471BAEF10A00D6C9B1 /* EladeDroneControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FB55541BAEF10A00D6C9B1 /* Build configuration list for PBXNativeTarget "EladeDroneControlTests" */;
+			buildPhases = (
+				52FB55441BAEF10A00D6C9B1 /* Sources */,
+				52FB55451BAEF10A00D6C9B1 /* Frameworks */,
+				52FB55461BAEF10A00D6C9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52FB554A1BAEF10A00D6C9B1 /* PBXTargetDependency */,
+			);
+			name = EladeDroneControlTests;
+			productName = EladeDroneControlTests;
+			productReference = 52FB55481BAEF10A00D6C9B1 /* EladeDroneControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52FB552C1BAEF10A00D6C9B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "François Chevalier";
+				TargetAttributes = {
+					52FB55331BAEF10A00D6C9B1 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = HRP4D6SAMY;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					52FB55471BAEF10A00D6C9B1 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 52FB55331BAEF10A00D6C9B1;
+					};
+				};
+			};
+			buildConfigurationList = 52FB552F1BAEF10A00D6C9B1 /* Build configuration list for PBXProject "EladeDroneControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52FB552B1BAEF10A00D6C9B1;
+			productRefGroup = 52FB55351BAEF10A00D6C9B1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 526589C51BB7116D00114760 /* Products */;
+					ProjectRef = 526589C41BB7116D00114760 /* Starscream.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				52FB55331BAEF10A00D6C9B1 /* EladeDroneControl */,
+				52FB55471BAEF10A00D6C9B1 /* EladeDroneControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		526589CC1BB7116D00114760 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 526589CB1BB7116D00114760 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		526589CE1BB7116D00114760 /* StarscreamTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = StarscreamTests.xctest;
+			remoteRef = 526589CD1BB7116D00114760 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		526589D01BB7116D00114760 /* Starscream.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Starscream.framework;
+			remoteRef = 526589CF1BB7116D00114760 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		526589D21BB7116D00114760 /* StarscreamOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = StarscreamOSXTests.xctest;
+			remoteRef = 526589D11BB7116D00114760 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52FB55321BAEF10A00D6C9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FB55421BAEF10A00D6C9B1 /* LaunchScreen.storyboard in Resources */,
+				52FB553F1BAEF10A00D6C9B1 /* Assets.xcassets in Resources */,
+				52FB553D1BAEF10A00D6C9B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FB55461BAEF10A00D6C9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52FB55301BAEF10A00D6C9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FB553A1BAEF10A00D6C9B1 /* ViewController.swift in Sources */,
+				52FB55381BAEF10A00D6C9B1 /* AppDelegate.swift in Sources */,
+				526589DA1BB71AB500114760 /* DroneStartBehaviour.swift in Sources */,
+				52FB55581BAF24D700D6C9B1 /* InitViewController.swift in Sources */,
+				52FB555E1BAF250400D6C9B1 /* TakeOffViewController.swift in Sources */,
+				52FB555C1BAF24F400D6C9B1 /* StepTwoViewController.swift in Sources */,
+				5255F6261BB83BD000C15B1C /* RaspberryMessageHelper.swift in Sources */,
+				52FB555A1BAF24E800D6C9B1 /* StepOneViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FB55441BAEF10A00D6C9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FB554D1BAEF10A00D6C9B1 /* EladeDroneControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		526589D71BB7128B00114760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			targetProxy = 526589D61BB7128B00114760 /* PBXContainerItemProxy */;
+		};
+		52FB554A1BAEF10A00D6C9B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52FB55331BAEF10A00D6C9B1 /* EladeDroneControl */;
+			targetProxy = 52FB55491BAEF10A00D6C9B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52FB553B1BAEF10A00D6C9B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FB553C1BAEF10A00D6C9B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52FB55401BAEF10A00D6C9B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FB55411BAEF10A00D6C9B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52FB554F1BAEF10A00D6C9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52FB55501BAEF10A00D6C9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52FB55521BAEF10A00D6C9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = EladeDroneControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.chevalier.EladeDroneControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52FB55531BAEF10A00D6C9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = EladeDroneControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.chevalier.EladeDroneControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52FB55551BAEF10A00D6C9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EladeDroneControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.chevalier.EladeDroneControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EladeDroneControl.app/EladeDroneControl";
+			};
+			name = Debug;
+		};
+		52FB55561BAEF10A00D6C9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EladeDroneControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.chevalier.EladeDroneControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EladeDroneControl.app/EladeDroneControl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52FB552F1BAEF10A00D6C9B1 /* Build configuration list for PBXProject "EladeDroneControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FB554F1BAEF10A00D6C9B1 /* Debug */,
+				52FB55501BAEF10A00D6C9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FB55511BAEF10A00D6C9B1 /* Build configuration list for PBXNativeTarget "EladeDroneControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FB55521BAEF10A00D6C9B1 /* Debug */,
+				52FB55531BAEF10A00D6C9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FB55541BAEF10A00D6C9B1 /* Build configuration list for PBXNativeTarget "EladeDroneControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FB55551BAEF10A00D6C9B1 /* Debug */,
+				52FB55561BAEF10A00D6C9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52FB552C1BAEF10A00D6C9B1 /* Project object */;
+}
